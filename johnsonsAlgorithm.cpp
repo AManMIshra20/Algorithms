@@ -13,7 +13,7 @@ main() {
    cout << "Enter no of edges: ";
    cin >> edge;
    cout << "Enter the EDGE Costs:\n";
-   for (k = 1; k <= edge; k++) { //take the input and store it into adj and cost matrix
+   for (k = 1; k <= edge; k++) { 
       cin >> i >> j >> c;
       adj[i][j] = cost[i][j] = c;
    }
